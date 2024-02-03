@@ -3,7 +3,7 @@ Blockchain based Online certificate issuance and verification
 
 
 ### The problem CertiVerse solves
-Online certificate generation and validation system using Blockchain Technology. The problem at hand revolves around the current state of certificate issuance and validation in a world where a multitude of training programs, courses, and qualifications are offered. The existing system lacks an efficient and tamper-proof mechanism for verifying digital certificates, creating challenges for Government Offices, Students, Industry professionals, and Institutes. In the absence of a robust solution, there is a significant risk of certificate fraud and misrepresentation.
+The problem at hand revolves around the current state of certificate issuance and validation in a world where a multitude of training programs, courses, and qualifications are offered. The existing system lacks an efficient and tamper-proof mechanism for verifying digital certificates, creating challenges for Government Offices, Students, Industry professionals, and Institutes. In the absence of a robust solution, there is a significant risk of certificate fraud and misrepresentation.
 Even the government issued certificates such as Birth certificate, Property details, Caste certificate are easily faked nowadays. So solving this problem was a must.
 We created a Dapp which solves this problem by coverting the generated certificates using blockchain into NFTs (Non Fungible Tokens) which makes them transparent and immutable.
 
