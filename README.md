@@ -8,7 +8,7 @@ Even the government issued certificates such as Birth certificate, Property deta
 We created a Dapp which solves this problem by coverting the generated certificates using blockchain into NFTs (Non Fungible Tokens) which makes them transparent and immutable.
 First of all, the certification issuing authority needs to be verified on the network. Only the validated authories can generate the certificates using the platform. The platform converts these digital certificates into Non-Fungible Tokens (NFTs). The NFTs, which represent the certificates, are securely stored on the InterPlanetary File System (IPFS).
 Authority Verification: To maintain trust and authenticity, the company is recorded as the issuer of the NFTs.
-NFT Transfer: The company transfers the NFTs to their respective users and This transfer is recorded on the underlying blockchain network (XDC Apothem Network).
+NFT Transfer: The company transfers the NFTs to their respective users and This transfer is recorded on the underlying blockchain network Polygon
 Transaction Record: Anyone can view the transaction on the blockchain explorer to verify the issuance and transfer.
 User Receipt: Users receive the NFT certificates in their digital wallets, such as MetaMask.
 
@@ -31,7 +31,7 @@ Here are some pre-requisites that you may require to run the project on your sys
 
 - Node (https://node.org/).
 - ReactJs (https://reactjs.org/).
-- NextJs (https://nextjs.org/) .
+
 
 ### Install Project
 
