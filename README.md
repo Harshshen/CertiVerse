@@ -1,5 +1,5 @@
 # CertiVerse
-Blockchain based Online certificate issuance and verification>
+Blockchain based Online certificate issuance and verification
 
 
 ### The problem CertiVerse solves
