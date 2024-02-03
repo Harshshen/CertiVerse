@@ -6,6 +6,8 @@ Blockchain based Online certificate issuance and verification>
 Online certificate generation and validation system using Blockchain Technology. The problem at hand revolves around the current state of certificate issuance and validation in a world where a multitude of training programs, courses, and qualifications are offered. The existing system lacks an efficient and tamper-proof mechanism for verifying digital certificates, creating challenges for Government Offices, Students, Industry professionals, and Institutes. In the absence of a robust solution, there is a significant risk of certificate fraud and misrepresentation.
 Even the government issued certificates such as Birth certificate, Property details, Caste certificate are easily faked nowadays. So solving this problem was a must.
 We created a Dapp which solves this problem by coverting the generated certificates using blockchain into NFTs (Non Fungible Tokens) which makes them transparent and immutable.
+
+# How It Works
 First of all, the certification issuing authority needs to be verified on the network. Only the validated authories can generate the certificates using the platform. The platform converts these digital certificates into Non-Fungible Tokens (NFTs). The NFTs, which represent the certificates, are securely stored on the InterPlanetary File System (IPFS).
 Authority Verification: To maintain trust and authenticity, the company is recorded as the issuer of the NFTs.
 NFT Transfer: The company transfers the NFTs to their respective users and This transfer is recorded on the underlying blockchain network Polygon
