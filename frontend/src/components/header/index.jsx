@@ -56,19 +56,46 @@ export default function Header() {
   }, []);
 
   const connectToMetamask = async () => {
-    const chainId = await window.ethereum.request({ method: "eth_chainId" });
+    let chainId = await window.ethereum.request({ method: "eth_chainId" });
     if (chainId !== "0x33") {
-      await window.ethereum.request({
-        method: "wallet_switchEthereumChain",
-        params: [{ chainId: "0x33" }],
-      });
+      try {
+        await window.ethereum.request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x33",
+              chainName: "Your Chain Name",
+              rpcUrls: ["Your RPC URL"],
+              nativeCurrency: {
+                name: "Your Currency Name",
+                symbol: "Your Currency Symbol",
+                decimals: 18,
+              },
+              blockExplorerUrls: ["Your Block Explorer URL"],
+            },
+          ],
+        });
+      } catch (error) {
+        console.error("Failed to add chain:", error);
+      }
+
+      try {
+        await window.ethereum.request({
+          method: "wallet_switchEthereumChain",
+          params: [{ chainId: "0x33" }],
+        });
+      } catch (switchError) {
+        console.error("Failed to switch chain:", switchError);
+      }
     }
+
     const accounts = await window.ethereum.request({
       method: "eth_requestAccounts",
     });
     console.log(accounts[0]);
     setAccountAddr(accounts[0]);
   };
+
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 

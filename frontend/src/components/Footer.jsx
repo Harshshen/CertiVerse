@@ -1,4 +1,4 @@
-export default function Footer() {
+function Footer() {
   return (
     <div>
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -11,7 +11,7 @@ export default function Footer() {
               <use xlinkHref="#bootstrap"></use>
             </svg>
           </a>
-          <span className="text-muted">© 2024 Certificate Validator, Inc</span>
+          <span>© 2024 Certificate Validator, Inc</span>
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -23,3 +23,4 @@ export default function Footer() {
     </div>
   );
 }
+export default Footer;
