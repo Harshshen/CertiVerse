@@ -14,6 +14,10 @@ NFT Transfer: The company transfers the NFTs to their respective users and This 
 Transaction Record: Anyone can view the transaction on the blockchain explorer to verify the issuance and transfer.
 User Receipt: Users receive the NFT certificates in their digital wallets, such as MetaMask.
 
+### Technology Used
+`Frontend `=> Javascript  React.js SAAS Bootstrap
+` Polygon` =>  Pinata IPFS Ethers.js
+
 ### The problems faced while deploying to Polygon:
 Many issues occured while using the latest solidity version to deploy the contract on the Polygon Network. After a very long session (~5h) of trail and errors, downgrading the solidity version to ^0.8.13 (previously ^0.8.21) and changing the deployer to truffle from hardhat solved the issue.
 
